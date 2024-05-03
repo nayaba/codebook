@@ -1,0 +1,13 @@
+{
+  "name": "codebook",
+  "version": "1.0.0",
+  "description": "Codebook: a note-taking app for devs. Organize code snippets with Markdown. Jot ideas, document algorithms, and save for later.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
