@@ -20,6 +20,11 @@ app.use(express.urlencoded({extended: false}))
 app.use(methodOverride('_method'))
 app.use(morgan('dev'))
 
+// ROUTES
+app.get('/', async (req, res) => {
+    res.render('index.ejs')
+})
+
 app.listen(port, () => {
     console.log(`The exress app is ready on port ${port}!`)
 })
